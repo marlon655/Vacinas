@@ -1,0 +1,269 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+.clear{
+	clear: both;
+}
+body,html{
+	height: 100%;
+}
+/*header{
+	width: 100%;
+	background-color: #ccc;
+}
+header h2{
+	float: left;
+}
+.desktop-login{
+	float: right;
+	margin: 0 auto;
+	background-color: yellow;
+	width: 25%;
+}
+.desktop-login input[type=text],
+.desktop-login input[type=password]{
+	height: 30px;
+	width: 70%;
+	float: left;
+}
+.desktop-login input[type=submit]{
+	width: 30%;
+	height: 60px;
+}*/
+.box{
+	border: 2px solid #FFA500;
+	position: relative;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 250px;
+	padding: 10px 20px;
+	background-color: #5A3FD1;
+}
+.box h2{
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-weight: 20px;
+}
+.box input[type=text],
+.box input[type=password]{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 20px;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.box input[type=submit]{
+	margin: 5px 0;
+	background-color: #FFA500;
+	border: none;
+	color: white;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: normal;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.buttom{
+	text-align: center;
+	width: 100px;
+	padding: 0 5px;
+	background-color: #FFA500;
+}
+.box-alert{
+	display: inline-block;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 5px 0;
+	text-align: center;
+	margin-top: 10px; 
+}
+.sucesso{
+	background-color: #39AF5B;
+}
+.erro{
+	background-color: orange;
+}
+.atencao{
+	background-color: #c4a600;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.header{
+	background-color: rgb(90, 63, 209);
+	width: calc(100% - 300px);
+	padding: 10px 2%;
+	float: right;
+}
+.icon{
+	float: left;
+}
+.icon h2{
+	float: left;
+	color: white;
+	cursor: pointer;
+}
+.sair a{
+	padding: 0 2%;
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.menu{
+	width: 100%;
+	max-width: 300px;
+	height: 100%;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.user{
+	background-color: rgb(90, 63, 209);
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+}
+.user-img{
+	width: 100%;
+	max-width: 120px;
+	height: 120px;
+	border:2px solid white;
+	border-radius: 50%;
+	display: inline-block;
+}
+.user h2{
+	font-size: 25px;
+	font-weight: normal;
+	color: white;
+}
+.user span{
+	letter-spacing:1px;
+	font-size: 15px;
+	font-weight: normal;
+	color: white;
+}
+
+.img{
+	background-color: white;
+	position: relative;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 100px;
+	border-radius: 50px 50px;
+}
+.submenu{
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: rgb(90, 63, 209);
+}
+.submenu-item h2{
+	padding: 5px 10px;
+	font-size: 25px;
+	font-weight: normal;
+	color: white;
+	background-color: rgb(55, 37, 137);
+
+}
+.submenu-item a{
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	border-bottom: 1px solid rgb(55, 37, 137);
+		/*background-color: red;*/
+	/*background-color: rgb(55, 37, 137);*/
+}
+.submenu-item a:hover{
+	background-color: rgb(55, 37, 137);
+}
+.divisor{
+	min-height: 250px;
+	float: left;
+	/*margin: 0 auto;*/
+	/*display: inline-block;*/
+	width: calc(96% / 2);
+}
+.content{
+	overflow-y: auto;
+	overflow-x: hidden;
+	float: right;
+	padding: 0 10px;
+	width: calc(100% - 300px);
+	background-color: #372589;
+	height: 100%;
+	margin: 0 auto;
+}
+.content input[type=submit]{
+	font-size: 25px;
+	width: 100%;
+	max-width: 150px;
+	height: 40px;
+	cursor: pointer;
+	color: white;
+	border: none;
+	background-color: #5A3FD1;
+	margin-bottom: 20px;
+}
+.content input[type=submit]:hover{
+	background-color: #372589;
+	border: 3px solid #5A3FD1;
+}
+.form-group{
+	margin: 10px 0;
+	padding: 10px;
+	background-color: #5A3FD1;
+}
+.form-group label{
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+}
+.form-group input[type=text]{
+	background-color: #ccc;
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+.form-group span{
+	padding: 5px 0;
+	display: inline-block;
+	font-weight: lighter;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+}
+@media screen and (max-width:900px){
+.menu{
+	width: 200px;
+}
+.header{
+	padding: 0;
+	width: calc(100% - 200px);
+}
+.content{
+	width: calc(100% - 200px);
+}
+}
+@media screen and (max-width:768px){
+	.divisor{
+		width: 100%;
+	}
+} 

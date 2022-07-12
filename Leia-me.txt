@@ -1,0 +1,10 @@
+login: admin
+senha:123
+
+Para acessar o programa em C, acesse vacina_bdd extensão aplicativo.
+É nescessário estar com um servidor ligado ex: Xampp...
+Importar para o servidor o arquivo sql utilizando o nome vacinas.
+Mais informações acesse o arquivo .c para acessar o script.
+Para o arquivo php acesse o config.php para informaçoes sobre o DB.
+
+O banco de dados pode ser manipulado pelo aplicativo em C quanto pelo painel de controle do PHP.
